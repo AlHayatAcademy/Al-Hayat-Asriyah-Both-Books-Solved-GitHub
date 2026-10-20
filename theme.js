@@ -1,0 +1,1 @@
+(()=>{let theme='light';try{const saved=localStorage.getItem('al-hayat-asriyah-theme');theme=['light','dark'].includes(saved)?saved:window.matchMedia?.('(prefers-color-scheme: dark)').matches?'dark':'light'}catch{}document.documentElement.dataset.theme=theme})();
